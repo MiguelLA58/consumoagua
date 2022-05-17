@@ -1,0 +1,107 @@
+
+
+* {box-sizing:border-box;}
+
+body{
+    font-family: Verdana;
+    padding: 10px;
+    background-color: #C00000;
+    }
+
+header{
+    padding:30px;
+    text-align: center;
+    color:#1995B7;
+    background: linen;
+    }
+header h1{
+    width: 90%;
+    font-size: 40px;
+    }
+
+header img{
+    width: 10%;
+    height: 80px;
+    float:left;
+    box-shadow: 5px 3px 5px #ff8000;
+    }
+.topnav{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background-color:#3BA7E1;
+    box-shadow: 10px 5px 5px #1D64A6;
+    }
+.topnav a{
+    float: left;
+    display: block;
+    text-align: center;
+	color: #ffffff;
+    background-color: #3BA7E1;
+    padding: 14px 16px;
+    text-decoration: none;
+	box-shadow:0px 5px 0px #1D64A6;
+}
+
+.topnav a:hover {
+	font-family: "Libre Franklin", sans-serif;
+	text-decoration:underline;
+	font-size:15px;
+	background-color:#808080;
+	color:#ffffff;
+	box-shadow:0px 2px 0px #ff0000;
+	}
+h2 {
+    text-align: center;
+    font-family: verdana;
+    padding: 40px 0px;
+    height: 60px;
+    width: 100%;
+}
+
+.title__table{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: rgba(40,65,120,1);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.9em;
+    
+}
+.container-table{
+    width: 90%;
+    background: coral;
+    margin: 50px;
+    box-shadow: 0 0 20px #FFFFFF;
+    
+    display: grid;
+    /*la etiqueta grid-template-columns te permite poner el ancho de cada columna 
+	por ejemplo grid-template-columns: 100px 100px 100px 100px 
+	o de la forma que se hizo abajo 
+	tambien puedes hacerlo como porcentaje 
+	grid-template-columns: repeat(4, 25%) */
+	
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: 40px;
+}
+
+
+.header__table {
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+.item__table {
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+.header__table, .item__table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
