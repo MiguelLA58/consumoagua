@@ -33,11 +33,15 @@
         </style>
     </head>
     <body>
+        <header>
+            <img src="Fotos/gallery-ds-X_tEarX6svc-unsplash.jpg">
+            <h1>Consumo de Agua</h1>
+        </header>
         <div id="cabecera">
             <ul class="topnav">
                 <li><a href="menu.html">Inicio</a></li>
                 <li><a href="Coments.php">Registar un comentario</a></li>
-                <li class="salida"><a href="https://www.google.com">Salir</a></li>
+                <li><a href="https://www.google.com">Salir</a></li>
             </ul>
         </div>
         <div class="marcogrande">

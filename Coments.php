@@ -22,17 +22,15 @@
 </head>
 <body>
     <header>
-        <imagen>
         <img src="Fotos/gallery-ds-X_tEarX6svc-unsplash.jpg">
-        </imagen>
-    <h1 style="margin-left:60px;width:80%;">Sus comentarios son bienvenidos</h1>
+        <h1 style="margin-left:60px;width:80%;">Sus comentarios son bienvenidos</h1>
     </header>
     
     <div id="cabecera">
         <ul class="topnav">
             <li><a href="menu.html">Inicio</a></li>
             <li><a href="verComentarios.php">Ver comentarios anteriores</a></li>
-            <li class="salida"><a href="http://www.google.com" style="float:right">Salir</a></li>
+            <li><a href="http://www.google.com">Salir</a></li>
         </ul>
     </div>
 

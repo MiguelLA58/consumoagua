@@ -47,7 +47,7 @@ $digo = mysqli_query($conexion,$toktik);
             <li><a href="vmes.php?mes='<?php $mespos=mysqli_fetch_assoc($digo);
                         echo $mespos["mes"]; ?>'">Mes siguiente</a></li>
             <li><a href="Mensaje.html">Comentarios</a></li>
-            <li class="salida"><a href="http://www.google.com">Salir</a></li>
+            <li><a href="http://www.google.com">Salir</a></li>
         </ul>
     </div>
     <p class="titulo"><?php $consulta=mysqli_query($conexion,$contenido);

@@ -50,7 +50,7 @@
 			<li><a href="Consulta21.php?mes='<?php $mespos=mysqli_fetch_assoc($digo);
 						echo $mespos["mes"]; ?>'">Mes siguiente</a></li>
 			<li><a href="Mensaje.html">Comentarios</a></li>
-			<li class="salida"><a href="http://www.google.com" style="float:right">Salir</a></li>
+			<li><a href="http://www.google.com">Salir</a></li>
 		</ul>
     </div>
     <p class="titulo"><?php $pidemes=mysqli_query($conexion,$contenido);
