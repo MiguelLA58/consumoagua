@@ -1,5 +1,5 @@
 <?php 
-    error_reporting(0);
+    /*error_reporting(0);*/
     include "cn.php";
     if(isset($_POST['entrar'])){
         $ruser = $conexion->real_escape_string($_POST['usuario']);
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                     </form> 
-                    <?php echo $mensaje; ?>               
+                    <?php $mensaje; ?>
                 </article>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect("localhost", "root","datosdat05","consumoagua");
+$conexion = mysqli_connect("consumoagua.local", "root","datosdat05","consumoagua");
 mysqli_set_charset($conexion, "utf8");
 
 if (!$conexion) {
